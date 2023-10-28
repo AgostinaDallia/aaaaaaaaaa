@@ -1,0 +1,148 @@
+<!DOCTYPE html><!--etiqueta indica que mi web es html:5 - es una etq abierta-->
+<html lang="es"><!--contenido en español-->
+    <head><!--todo dentro del head son config p el navegador-->
+        <!--las etiq meta son de configuración-->
+        <meta charset="UTF-8"><!--el contenido puede estar en español-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--un px es lo mismo en escritorio que en celular-->
+        <title>Facial</title><!--cerrada, es lo unico hasta aca que ve el usuario-->
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+         <!--link de css bootstrap--> <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/estilos.css">
+        <script src="https://kit.fontawesome.com/6b748b5722.js" crossorigin="anonymous"></script>
+    </head>
+    <!--en el body va el contenido que ve el usuario-->
+    <body>
+        <header class="header">
+            <nav class="navbar navbar-expand-lg navbar-light p-0 bgRosaPastel">
+                <div class="container-fluid">
+                  <a class="navbar-brand p-0" href="#">
+                    <img class="logo " src="../assets/img/LogoDagos.png" alt="Logo" width="100px">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+                      <li class="nav-item">
+                        <a class="nav-link active coral" aria-current="page" href="../index.html">INICIO</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link coral" href="facial.html">FACIAL</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link coral" href="corporal.html">CORPORAL</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link coral" href="recomendados.html">RECOMENDADOS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link coral" href="contacto.html">CONTACTO</a>
+                      </li>
+                    </ul>
+                   
+                  </div>
+                </div>
+              </nav>
+             
+        </header>
+
+        <main>
+       
+            <div > <img width="1310" height="300" src="../assets/img/portadaCorporal.jpg" alt=""></div>
+            <div class="tarjetasProductos">
+                <video class="tarjeta" width="1310" height="600" autoplay muted loop class="video">
+                    <source src="../assets/video/portada.mp4" type="video/mp4">  
+                </video>
+                <!--se me complico poner la imagen sobre el video, nose si es posible con lo que dimos hasta ahora-->
+                <img class="tarjeta" src="../assets/img/FondoAguitaRosa.jpg" alt="">
+    
+            </div> 
+               <section class="tarjetasProductosIconos">
+                <h2 class="tituloSecundario">Productos destacados</h2>
+                <!--Las imagenes no son las definitivas para la web-->
+                        <!--sección de iconos y textos relacionados a cada producto, que explican sus beneficios-->
+                        <div class="tarjetaIconos" >
+                           <img  src="../assets/img/Icono1.png" alt="hidratantesFaciales">
+                           <p>crema corporal hidratante 1 con los siguientes beneficios</p> 
+                        </div>
+                   
+                        <div class="tarjetaIconos">
+                            <img  src="../assets/img/Icono2.png" alt="hidratantesFaciales">
+                            <p>crema corporal hidratante 1 con los siguientes beneficios</p> 
+                         </div>
+
+                         <div class="tarjetaIconos" >
+                            <img  src="../assets/img/Icono3.png" alt="hidratantesFaciales">
+                            <p>crema corporal hidratante 1 con los siguientes beneficios</p> 
+                         </div>
+                    
+                </section>
+
+                <div class="tarjetasProductos">
+                    <video class="tarjeta" width="1310" height="600" autoplay muted loop class="video">
+                        <source src="../assets/video/portada.mp4" type="video/mp4">  
+                    </video>
+                    <!--se me complico poner la imagen sobre el video, nose si es posible con lo que dimos hasta ahora-->
+                    <img class="tarjeta" src="../assets/img/FondoAguitaRosa.jpg" alt="">
+        
+                </div> 
+                   <section class="tarjetasProductosIconos">
+                    <h2 class="tituloSecundario">Productos destacados</h2>
+                    <!--Las imagenes no son las definitivas para la web-->
+                            <!--sección de iconos y textos relacionados a cada producto, que explican sus beneficios-->
+                            <div class="tarjetaIconos" >
+                               <img  src="../assets/img/Icono1.png" alt="hidratantesFaciales">
+                               <p>crema corporal hidratante 1 con los siguientes beneficios</p> 
+                            </div>
+                       
+                            <div class="tarjetaIconos">
+                                <img  src="../assets/img/Icono2.png" alt="hidratantesFaciales">
+                                <p>crema corporal hidratante 1 con los siguientes beneficios</p> 
+                             </div>
+    
+                             <div class="tarjetaIconos" >
+                                <img  src="../assets/img/Icono3.png" alt="hidratantesFaciales">
+                                <p>crema corporal hidratante 1 con los siguientes beneficios</p> 
+                             </div>
+                        
+                    </section>
+                
+
+                
+
+                
+
+                
+        </main>
+        <footer class="footer">
+
+            <section class="suscribite">
+                <h2>Suscribite a nuestro newsletter</h2>
+                <form action="./pages/contacto.html">
+                    <label for=""></label>
+                    <input type="mail" id="Email" name="Email" placeholder="ejemplo@dagos.com.ar" required>
+                </form>
+                
+            </section>
+           
+            </div>
+            <ul class="footer">
+            <li ><a class="linkNavFooter" href="">Acuerdos y condiciones </a></li>
+            <li><a class="linkNavFooter" href="">Contactate con nosotros</a></li>
+            <li><a class="linkNavFooter" href="">Puntos de venta</a></li>
+            <li><a class="linkNavFooter" href="">Glosario del cuidado de la piel</a></li>
+           <li><a class="linkNavFooter" href="">Políticas de privacidad</a></li>
+           </ul>
+           <div class="contenedorIconos">
+            <a class="anclaFooter" target="_blank" href="http://www.whatsapp.com"><i class="fa-brands fa-whatsapp icon"></i></a>
+            <a class="anclaFooter" target="_blank" href=""><i class="fa-brands fa-facebook icon"></i></a>
+            <a class="anclaFooter" target="_blank" href=""><i class="fa-brands fa-instagram icon"></i></a>
+           </div>
+
+            <section class="footer">© Dagos Laboratories, llc. todos los derechos reservados</section>
+        </footer>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    </body>
+</html>
