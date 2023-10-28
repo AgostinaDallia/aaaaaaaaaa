@@ -47,12 +47,18 @@
           </nav> 
     </header>
     <main>
-        <div class="container-fluid ">
+        <!--<div class="container-fluid ">
             <video width="1310" height="600" autoplay muted loop class="video">
                 <source src="./assets/video/portada.mp4" type="video/mp4">
             </video>
 
-        </div> 
+
+        </div>-->
+        <video class="video" autoplay muted playsinline>
+          <source src="./assets/video/portada.mp4" type="video/mp4">
+         
+      </video> 
+
         <div class="galeria">
           <div class="hijo">
            <img src="./assets/img/recomendados.png" alt="Galeria">
@@ -86,25 +92,28 @@
      
 
   <footer class="footer">
-    <div class="footer-top">
-              <div class="container row">
-                      <div class="col">
-                        <h4>¡Brilla con las Novedades!</h4>
-                          <p>Suscríbete a nuestro newsletter</p>
-                      </div>
-                      <div class="col">
-                          <form class="subscription-form">
-                            <input type="email" class="form-control is-invalid" id="email" placeholder="Escribe tu correo electrónico" required>
-                            <div class="invalid-feedback">
-                                Por favor, ingresa un correo electrónico válido.
-                            </div>
-                              <button type="submit" class="boton boton:hover mt-3 ">Enviar</button>
-                          </form>
-                      </div>
-                  </div>
+    <div class="footer-top mb-3 mt-3 suscribite">
+      <div class="container">
+          <div class="row justify-content-center align-items-center">
+              <div class="col-4">
+                  <h4>¡Brilla con las Novedades!</h4>
+                  <p>Suscríbete a nuestro newsletter</p>
+              </div>
+              <div class="col-4">
+                  <form class="subscription-form">
+                      <input type="email" class="form-control is-invalid" id="email" placeholder="Escribe tu correo electrónico" required>
+                  </form>
+              </div>
+              <div class="col-4">
+                  <form action="">
+                      <button type="submit" class="boton boton:hover">Enviar</button>
+                  </form>
               </div>
           </div>
-    <div class="footer-container">
+      </div>
+   </div>
+          
+   <div class="footer-container">
         <div class="footer-column">
             <h4>Preguntas Frecuentes</h4>
             <ul>
